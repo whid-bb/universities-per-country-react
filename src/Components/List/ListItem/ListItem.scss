@@ -18,21 +18,22 @@ $darkerBlueHover: hsl(219, 45%, 53%);
   cursor: pointer;
   transition: 0.3s;
 
-  &:hover {
-    img {
-      box-shadow: none;
-    }
-  }
-  &:nth-child(2n) {
-    background: $darkerBlue;
-  }
-
   img {
     width: 50%;
     left: 10%;
     top: 10%;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
     transition: 0.3s;
+  }
+
+  &:hover {
+    img {
+      box-shadow: none;
+    }
+  }
+
+  &:nth-child(2n) {
+    background: $darkerBlue;
   }
 
   .country-list-item {

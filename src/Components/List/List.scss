@@ -14,10 +14,9 @@ $darkerBlue: #4369b2;
     align-items: stretch;
     flex-direction: row;
     flex-wrap: wrap;
+
     &:nth-child(2n) {
       flex-direction: row-reverse;
     }
-  }
-  .country-list-item {
   }
 }
