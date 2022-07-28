@@ -15,9 +15,7 @@ const fetchCountries = createAsyncThunk('countries/getCountries', async () => {
 });
 
 const fetchCountriesDetails = createAsyncThunk('countries/fetchCountriesDetails', async (country) => {
-  // const response = await fetch(`http://universities.hipolabs.com/search?country=${country}`, {
-  const response = await fetch(`https://167.71.0.77:5000/search?country=${country}`, {
-    // const response = await fetch(`https://nowyumysl.pl/testCountry.json?country=${country}`, {
+  const response = await fetch(`https://countries.nowyumysl.pl/app/search?country=${country}`, {
     method: 'GET',
     headers: {
       Accept: 'application/json',
