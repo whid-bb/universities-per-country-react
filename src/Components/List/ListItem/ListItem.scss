@@ -3,13 +3,17 @@ $lighterBlueHover: hsl(219, 55%, 60%);
 $darkerBlue: hsl(219, 45%, 48%);
 $darkerBlueHover: hsl(219, 45%, 53%);
 
+.country-list-container {
+  overflow: hidden;
+}
+
 .country-list-link {
   flex: 50%;
   min-width: 170px;
   min-height: 150px;
   margin-bottom: -8px;
-  position: relative;
   background: $lighterBlue;
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -52,4 +56,10 @@ $darkerBlueHover: hsl(219, 45%, 53%);
   .cli-data {
     text-align: right;
   }
+}
+
+.go-back-ico {
+  padding: 0.8rem;
+  background-color: $darkerBlue;
+  height: 100%;
 }
