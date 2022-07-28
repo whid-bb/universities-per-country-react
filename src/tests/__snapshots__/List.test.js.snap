@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List test List render correctly 1`] = `
+<div>
+  <div
+    className="country-list-container"
+  />
+</div>
+`;

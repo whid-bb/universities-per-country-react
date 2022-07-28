@@ -35,6 +35,10 @@ You can install Node and NPM at https://nodejs.org and follow the instructions p
 
 - [LinkedIn](https://www.linkedin.com/in/bartosz-ka%C5%BAmierczak-46a810235/)
 
+## Inspiration
+
+- Many thanks to [Cindy Shin](https://www.behance.net/sakwadesignstudio) in Behance which design I used for this [project](<https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)>).
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
