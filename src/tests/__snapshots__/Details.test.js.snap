@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Details test Details render correctly 1`] = `
+<div
+  className="details-header"
+>
+  <span>
+    Universities:
+  </span>
+  0
+</div>
+`;
